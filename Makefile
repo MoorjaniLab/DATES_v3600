@@ -8,13 +8,9 @@ NLIB = $(ND)/libnick.a
 override LDLIBS +=  -lm -lgsl -lopenblas -lfftw3 $(NLIB)  
 override CFLAGS += -c -g -p -Wimplicit  $(IDIR)  
 
-## Harvard O2 
-ifdef SLURM_CONF
-override CFLAGS += -I/user/bin/openblas/0.2.19/include -I/user/bin/gsl/2.3/include -I/user/bin/fftw/3.3.7/include
-override LDFLAGS += -L/user/bin/openblas/0.2.19/lib -L/user/bin/gsl/2.3/lib/  -L/user/bin/fftw/3.3.7/lib
-endif
-
 override CFLAGS += -DHAVE_CONFIG_H -Wimplicit-int -D_IOLIB=2
+
+mkdir -p bin
 
 all:   dates_expfit dates simpjack2 dowtjack grabpars
 
