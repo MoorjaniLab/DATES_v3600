@@ -25,7 +25,7 @@ clean:
 	rm -f  *.o  nicksrc/*.o nicklib
 
 clobber:  clean
-	rm -f  dates_expfit dates simpjack2 dowtjack nicksrc/libnick.a bin/*
+	rm -f  dates_expfit dates simpjack2 grabpars dowtjack nicksrc/libnick.a bin/*
 
 install: all
 	mkdir -p ./bin
