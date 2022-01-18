@@ -68,7 +68,7 @@ The program generates several output files (and some tempfiles).
 output.out                        # This file contains output for the entire genome. The estimates of covariance values at various genetic distances, binned according to input values.
 output.out:$chr, where chr=1-22   # These files contain the output for the jackknife where we remove one chromosome ($chr) in each run.
 output.jin                        # Summary of the jackknife output. Columns are: <chr> <# SNPs on the chromosome> <Estimate date by removing the chromosome>
-output.jout                       # Final output. <mean time of admixture> <SE based on jackknife> <Z-score> < Normalized Root Mean Square Disrtibution (NRMSD) value of the fit >
+output.jout                       # Final output. <mean time of admixture> <SE based on jackknife> <Z-score> < Normalized Root Mean Square Disrtibution score (NRMSD) to evaluate the fit >
 output.fit                        # output of least squares exponential fit. <genetic_distance_inCM> < output> < fitted_value> <output-fitted output>
 output.pdf                        # pdf of output with exponential fit.
 ```
