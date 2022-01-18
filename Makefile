@@ -10,8 +10,6 @@ override CFLAGS += -c -g -p -Wimplicit  $(IDIR)
 
 override CFLAGS += -DHAVE_CONFIG_H -Wimplicit-int -D_IOLIB=2
 
-mkdir -p bin
-
 all:   dates_expfit dates simpjack2 dowtjack grabpars
 
 $(NLIB): 
@@ -30,5 +28,6 @@ clobber:  clean
 	rm -f  dates_expfit dates simpjack2 dowtjack nicksrc/libnick.a bin/*
 
 install: all
+	mkdir -p ./bin
 	cp dates_expfit dates grabpars simpjack2 dowtjack perlsrc/*  ./bin/.
 
