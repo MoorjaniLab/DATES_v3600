@@ -1,0 +1,87 @@
+
+## DATES.  Version 3600
+
+parameter file: par.dates
+DIR: ./data
+indivname: ./data/family_packed.ind	
+snpname: ./data/family_packed.snp
+genotypename: ./data/family_packed.geno
+admixlist: admix	
+binsize: 0.001
+maxdis: 1.0
+seed: 77
+runmode: 1
+chithresh: 0.0
+mincount: 1
+zdipcorrmode: YES
+qbin: 10
+runfit: YES
+afffit: YES
+lovalfit: 0.45
+usevar set!
+
+seed: 77
+snppath: /my/home/mchintalapati/dev/GitHub_upload/DATES_v3600/example/data/family_packed.snp
+genotypename:  ./data/family_packed.geno
+packed geno read OK
+end of inpack
+valid snps: 378678
+zzsnp: 248156 rs3781759     0.627147     0.445896
+calling dowork:  French  Yoruba  Simulation 
+
+French
+Yoruba
+admix: Simulation
+
+countpops called
+output tables: Simulation.out
+mesh used :: qbin: 10  numqbins: 1404425
+regdim: 2
+number admixed: 1 numeg: 2
+group 0          French samplesize:   28
+group 1          Yoruba samplesize:   21
+numsnps: 378678  numindivs: 54
+coeffs:  NA00000     0.251     0.749 
+coeff: 378678              NA00000     0.251
+ calcab:              NA00000 :: 72381.651
+numx: 32767
+sample:              NA00000 completed.  Total CPU since start:     5.950
+calling fit!...
+dates_jackknife -p par.dates -l     0.450 -z Simulation -r 77 -m /my/home/mchintalapati/dev/GitHub_upload/DATES_v3600/example/data/family_packed.snp -a >Simulation:log
+calling dowork:  French  Yoruba  Simulation.1 
+
+French
+Yoruba
+admix: Simulation.1
+
+countpops called
+output tables: Simulation.1.out
+mesh used :: qbin: 10  numqbins: 1404425
+regdim: 2
+number admixed: 4 numeg: 2
+group 0          French samplesize:   28
+group 1          Yoruba samplesize:   21
+numsnps: 378678  numindivs: 54
+coeffs:  NA00001     0.234     0.766 
+coeff: 378678              NA00001     0.234
+coeffs:  NA00002     0.246     0.754 
+coeff: 378678              NA00002     0.246
+coeffs:  NA00003     0.243     0.757 
+coeff: 378678              NA00003     0.243
+coeffs:  NA00004     0.235     0.765 
+coeff: 378678              NA00004     0.235
+ calcab:              NA00001 :: 73244.444
+numx: 32767
+sample:              NA00001 completed.  Total CPU since start:     9.290
+ calcab:              NA00002 :: 73071.120
+numx: 373825
+sample:              NA00002 completed.  Total CPU since start:    10.260
+ calcab:              NA00003 :: 72883.424
+numx: 373825
+sample:              NA00003 completed.  Total CPU since start:    11.230
+ calcab:              NA00004 :: 72981.403
+numx: 373825
+sample:              NA00004 completed.  Total CPU since start:    12.360
+calling fit!...
+dates_jackknife -p par.dates -l     0.450 -z Simulation.1 -r 77 -m /my/home/mchintalapati/dev/GitHub_upload/DATES_v3600/example/data/family_packed.snp -a >Simulation.1:log
+##end of dates:       12.490 seconds cpu      461.685 Mbytes in use

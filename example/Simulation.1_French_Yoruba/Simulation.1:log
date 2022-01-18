@@ -1,0 +1,103 @@
+#affine mode: YES
+dates_wtjack -i Simulation.1 -m /my/home/mchintalapati/dev/DATES_Latest/example/data/family_packed.snp -s 0.001 -n 22 -l 0.450 -c 3 -r 77  -a 
+## affine mode
+chrom: 1  count: 29887;	chrom: 2  count: 31717;	chrom: 3  count: 26441;	chrom: 4  count: 22805;	chrom: 5  count: 24014;	chrom: 6  count: 25726;	chrom: 7  count: 20899;	chrom: 8  count: 21125;	chrom: 9  count: 18158;	chrom: 10  count: 20523;	chrom: 11  count: 18794;	chrom: 12  count: 18870;	chrom: 13  count: 14506;	chrom: 14  count: 12792;	chrom: 15  count: 11696;	chrom: 16  count: 11543;	chrom: 17  count: 10124;	chrom: 18  count: 11676;	chrom: 19  count: 6220;	chrom: 20  count: 10019;	chrom: 21  count: 5602;	chrom: 22  count: 5541;	
+
+Pop: Simulation.1
+Mean square error of fit
+dates_expfit -i Simulation.1.out:1 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 78  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 1:    1  29887.000000     51.693000
+Mean square error:     0.000001592
+dates_expfit -i Simulation.1.out:2 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 79  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 2:    2  31717.000000     52.270000
+Mean square error:     0.000001607
+dates_expfit -i Simulation.1.out:3 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 80  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 3:    3  26441.000000     52.573000
+Mean square error:     0.000001502
+dates_expfit -i Simulation.1.out:4 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 81  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 4:    4  22805.000000     52.561000
+Mean square error:     0.000001444
+dates_expfit -i Simulation.1.out:5 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 82  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 5:    5  24014.000000     51.328000
+Mean square error:     0.000001470
+dates_expfit -i Simulation.1.out:6 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 83  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 6:    6  25726.000000     52.368000
+Mean square error:     0.000001506
+dates_expfit -i Simulation.1.out:7 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 84  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 7:    7  20899.000000     51.552000
+Mean square error:     0.000001403
+dates_expfit -i Simulation.1.out:8 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 85  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 8:    8  21125.000000     51.614000
+Mean square error:     0.000001436
+dates_expfit -i Simulation.1.out:9 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 86  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 9:    9  18158.000000     50.888000
+Mean square error:     0.000001562
+dates_expfit -i Simulation.1.out:10 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 87  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 10:   10  20523.000000     55.256000
+Mean square error:     0.000001424
+dates_expfit -i Simulation.1.out:11 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 88  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 11:   11  18794.000000     52.259000
+Mean square error:     0.000001484
+dates_expfit -i Simulation.1.out:12 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 89  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 12:   12  18870.000000     52.876000
+Mean square error:     0.000001431
+dates_expfit -i Simulation.1.out:13 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 90  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 13:   13  14506.000000     52.193000
+Mean square error:     0.000001399
+dates_expfit -i Simulation.1.out:14 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 91  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 14:   14  12792.000000     51.804000
+Mean square error:     0.000001335
+dates_expfit -i Simulation.1.out:15 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 92  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 15:   15  11696.000000     51.572000
+Mean square error:     0.000001394
+dates_expfit -i Simulation.1.out:16 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 93  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 16:   16  11543.000000     52.472000
+Mean square error:     0.000001353
+dates_expfit -i Simulation.1.out:17 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 94  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 17:   17  10124.000000     52.500000
+Mean square error:     0.000001429
+dates_expfit -i Simulation.1.out:18 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 95  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 18:   18  11676.000000     53.120000
+Mean square error:     0.000001340
+dates_expfit -i Simulation.1.out:19 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 96  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 19:   19   6220.000000     52.339000
+Mean square error:     0.000001341
+dates_expfit -i Simulation.1.out:20 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 97  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 20:   20  10019.000000     52.366000
+Mean square error:     0.000001363
+dates_expfit -i Simulation.1.out:21 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 98  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 21:   21   5602.000000     51.880000
+Mean square error:     0.000001336
+dates_expfit -i Simulation.1.out:22 -n 1 -o Simulation.1.fit -l 0.450 -c 3 -r 99  -a  -s 0.001 >>expfit_Simulation.1.log
+Chr 22:   22   5541.000000     52.601000
+Mean square error:     0.000001367
+Overall: dates_expfit -i Simulation.1.out -n 1 -o Simulation.1.fit -l 0.450  -a  -r 77 -c 3 -s 0.001 >expfit_Simulation.1.flog
+52.273
+
+Jackknife summary:
+  1  29887.000000     51.693000
+  2  31717.000000     52.270000
+  3  26441.000000     52.573000
+  4  22805.000000     52.561000
+  5  24014.000000     51.328000
+  6  25726.000000     52.368000
+  7  20899.000000     51.552000
+  8  21125.000000     51.614000
+  9  18158.000000     50.888000
+ 10  20523.000000     55.256000
+ 11  18794.000000     52.259000
+ 12  18870.000000     52.876000
+ 13  14506.000000     52.193000
+ 14  12792.000000     51.804000
+ 15  11696.000000     51.572000
+ 16  11543.000000     52.472000
+ 17  10124.000000     52.500000
+ 18  11676.000000     53.120000
+ 19   6220.000000     52.339000
+ 20  10019.000000     52.366000
+ 21   5602.000000     51.880000
+ 22   5541.000000     52.601000
+ jmean:     52.181 std. err:      3.705 jmean (years):   1513.249 std. err(years):    107.445
+dates_plot -i Simulation.1 -s 0.001 -l 0.450 -h 20 -r 77  -a  -c 3
+#affine mode: YES
+dates_expfit -i Simulation.1.out -n 1 -o Simulation.1.fit -l 0.450 -s 0.001  -a  -c 3 -r 77 >Simulation.1_expfit.log

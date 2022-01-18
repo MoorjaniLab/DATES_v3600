@@ -1,0 +1,13 @@
+dates_expfit version: 210
+step (Morgans) ::     0.001000
+fitting 1 exponentials + affine
+after initialization:     0.000007     0.965 
+gslsetup called
+gslans:   20     0.000007
+    0.964 
+error sd:     0.002690
+halflife:    19.086 
+mean (generations):    37.317 
+    0.050229164     0.000160933 
+nrmsd:     0.064
+##end of run
