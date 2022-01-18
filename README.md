@@ -15,7 +15,7 @@ override CFLAGS += -I<PATH_TO_GSL_INCLUDE> -I<PATH_TO_OPENBLAS_INCLUDE> -I<PATH_
 override LDFLAGS += -I<PATH_TO_GSL_LIB> -I<PATH_TO_OPENBLAS_LIB> -I<PATH_FFTW_LIB>
 ```
 
- Once the ``Makefile`` is updated, simply run ``make`` and then add the executables in the ``bin`` directory to your PATH. 
+ Once the ``Makefile`` is updated, please create an empty ``bin`` directory and simply run ``make`` and then add the executables in the ``bin`` directory to your PATH. 
 
 ```
 make clean
