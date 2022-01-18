@@ -12,7 +12,7 @@ FFTW 3.3.8 (http://www.fftw.org/download.html)
 You will need to edit the file ``Makefile`` and change the following lines to the appropriate directories containing the ``include`` and ``lib`` files once you have these libraries installed.
 ```
 override CFLAGS += -I<PATH_TO_GSL_INCLUDE> -I<PATH_TO_OPENBLAS_INCLUDE> -I<PATH_FFTW_INCLUDE>
-override LDFLAGS += -I<PATH_TO_GSL_LIB> -I<PATH_TO_OPENBLAS_LIB> -I<PATH_FFTW_LIB>
+override LDFLAGS += -L<PATH_TO_GSL_LIB> -L<PATH_TO_OPENBLAS_LIB> -L<PATH_FFTW_LIB>
 ```
 
  Once the ``Makefile`` is updated, simply run ``make`` and then add the path to the executables in the ``bin`` directory to your PATH. 
