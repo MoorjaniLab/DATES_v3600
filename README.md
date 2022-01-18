@@ -68,7 +68,7 @@ The program generates several output files (and some tempfiles).
 output.out                        # This file contains output for the entire genome. The estimates of covariance values at various genetic distances, binned according to input values.
 output.out:$chr, where chr=1-22   # These files contain the output for the jackknife where we remove one chromosome ($chr) in each run.
 output.jin                        # Summary of the jackknife output. Columns are: <chr> <# SNPs on the chromosome> <Estimate date by removing the chromosome>
-output.jout                       # Final output. <mean time of admixture> <SE based on jackknife>
+output.jout                       # Final output. <mean time of admixture> <SE based on jackknife> <Z-score> < Normalized Root Mean Square Disrtibution (NRMSD) value of the fit >
 output.fit                        # output of least squares exponential fit. <genetic_distance_inCM> < output> < fitted_value> <output-fitted output>
 output.pdf                        # pdf of output with exponential fit.
 ```
@@ -76,5 +76,5 @@ output.pdf                        # pdf of output with exponential fit.
 An example run is available in ``src/example/`` directory. The data was simulated using ancestral haplotypes from 1000 Genomes Project West Africans (YRI) and Northern Europeans (CEU) using the our ADMIX simulator (https://github.com/priyamoorjani/Admix_simulator). To run DATES, use ``par.dates`` in the ``example/`` directory. Logfiles are provided for reference.
 
 #### Support
-Send queries to Manjusha Chintalapati (chintalapati@berkeley.edu), Nick Patterson (nickp@broadinstitute.org) and Priya Moorjani (moorjani@berkeley.edu)
+Send queries to Manjusha Chintalapati (m_chintalapati@berkeley.edu), Nick Patterson (nickp@broadinstitute.org) and Priya Moorjani (moorjani@berkeley.edu)
 
