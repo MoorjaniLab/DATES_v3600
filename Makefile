@@ -30,4 +30,5 @@ clobber:  clean
 install: all
 	mkdir -p ./bin
 	cp dates_expfit dates grabpars simpjack2 dowtjack perlsrc/*  ./bin/.
+	chmod 777 bin/*
 
