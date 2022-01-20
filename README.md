@@ -59,7 +59,6 @@ minparentcount: number             # Contains the minimum number of ancestral in
 chrom:      chromosome_number      # The analysis is limited to the specified chromosome only.
 nochrom:    chromosome_number      # The specified chromosome is excluded from the analysis.
 badsnpname: badsnp_list            # File contains a list of SNPs to be excluded from the analysis. 
-numchrom: integer                  # Contains the number of chromosomes in the population. Default = 22.
 ```
 
 #### Output
